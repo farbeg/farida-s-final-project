@@ -1,0 +1,55 @@
+.home {
+  padding: 100px 0px 140px;
+  background: url("../imgs/home/BG Shape.png") center/cover;
+}
+.home__title {
+  max-width: 606px;
+  margin-top: 57px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 60px;
+  /* or 100% */
+  letter-spacing: 1.8px;
+  color: #08090a;
+}
+.home__title .green {
+  color: #35b8be;
+}
+.home__text {
+  margin-top: 27px;
+}
+.home__btn {
+  background: #35b8be;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height, or 118% */
+  text-align: center;
+  color: #ffffff;
+  margin-top: 53px;
+  padding: 20px 35px;
+  border: none;
+}
+.home__icon {
+  margin-top: 40px;
+  display: block;
+}
+.home__sentence {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  color: #08090a;
+}
+.home__sentence .green {
+  color: #35b8be;
+}
+.home__sentence__img {
+  width: 600px;
+  height: 580px;
+}
