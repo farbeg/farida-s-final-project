@@ -1,0 +1,171 @@
+.menu {
+    padding: 140px 0px;
+    background: url("../imgs/menu/BG\ Shape\ Content.png") center/cover no-repeat;
+    &__btn {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height, or 118% */
+
+        text-align: center;
+
+        color: #ffffff;
+        background: #35b8be;
+        border-radius: 6px;
+        border: none;
+        padding: 20px 35px;
+        margin-top: 65px;
+    }
+    &__last{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 55px;
+        /* identical to box height, or 110% */
+
+        text-align: center;
+        letter-spacing: 1.65px;
+
+        color: #010002;
+        margin-bottom: 25px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        /* or 169% */
+
+        text-align: center;
+        letter-spacing: 0.36px;
+
+        color: #546285;
+        max-width: 465px;
+        margin: 0 auto 50px;
+    }
+    &-tabs {
+        &-card {
+            background: #ffffff;
+            border: 1px solid rgba(53, 184, 190, 0.15);
+            box-sizing: border-box;
+            border-radius: 6px;
+            padding: 35px 25px 25px;
+            margin-bottom: 20px;
+            display: flex;
+            &__left {
+                max-width: 120px;
+                max-height: 120px;
+                margin-right: 30px;
+            }
+            &__title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 20px;
+                /* identical to box height, or 111% */
+
+                letter-spacing: 0.6px;
+
+                color: #08090a;
+                display: flex;
+                justify-content: space-between; //doesn't work!!!
+                margin-bottom: 18px;
+            }
+            &__price {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 20px;
+                /* identical to box height, or 133% */
+
+                color: #35b8be;
+            }
+            &__descr {
+                margin-bottom: 8px;
+            }
+            &__num {
+                background: #fafafa;
+                border: 1px solid #dddddd;
+                box-sizing: border-box;
+                border-radius: 6px;
+                max-width: 60px;
+                height: 45px;
+                padding: 0 26px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 27px;
+                /* identical to box height, or 169% */
+
+                text-align: center;
+                letter-spacing: 0.36px;
+
+                color: #000000;
+                outline: none;
+                margin-right: 8px;
+            }
+            &__addToCardBtn {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 27px;
+                /* identical to box height, or 169% */
+
+                text-align: center;
+                letter-spacing: 0.36px;
+
+                color: #ffffff;
+                background: #35b8be;
+                border-radius: 6px;
+                padding: 9px 12px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+        &__caption {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        &__content {
+            display: none;
+            &_active {
+                display: block;
+            }
+        }
+        &__btn {
+            border-radius: 6px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 20px;
+            /* identical to box height, or 133% */
+
+            color: #222222;
+
+            border: 1px solid rgba(97, 114, 131, 0.2);
+            padding: 16px 46px;
+            margin-right: 30px;
+            cursor: pointer;
+            transition: 0.4s all;
+            &:hover {
+                background: url("../imgs/menu/bggreen.png") center/cover;
+                color: #ffffff;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+            &_active {
+                background: url("../imgs/menu/bggreen.png") center/cover;
+                color: #ffffff;
+            }
+        }
+    }
+}

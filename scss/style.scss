@@ -1,0 +1,25 @@
+@import url(../css/style.css);
+@import url(../libs/bootstrap/bootstrap.min.css);
+@import url(../fonts/inter/stylesheet.css);
+@import url(../libs/owl/owl.carousel.min.css);
+@import url(../libs/owl/owl.theme.default.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter';
+}
+
+@import './header.scss';
+@import './home.scss';
+@import './about.scss';
+@import './apps.scss';
+@import './menu.scss';
+@import './order.scss';
+@import './call.scss';
+@import './support.scss';
+@import './footer.scss';

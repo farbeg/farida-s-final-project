@@ -1,0 +1,48 @@
+.about {
+    padding: 140px 120px;
+    background: url("../imgs/about/BG\ Shape\ Content.png") center/cover no-repeat;
+    & .container .row .col-6:first-child {
+        background: url(../imgs/about/bgfirstcol.png) center/cover no-repeat;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 55px;
+        /* identical to box height, or 110% */
+
+        letter-spacing: 1.65px;
+
+        color: #35b8be;
+        margin-top: 151px;
+        max-width: 374px;
+    }
+    &__text {
+        margin-top: 29px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+
+        letter-spacing: 0.36px;
+
+        color: #546285;
+    }
+    &__btn {
+        margin-top: 47px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height, or 118% */
+
+        text-align: center;
+
+        color: #ffffff;
+        background: #35b8be;
+        border-radius: 6px;
+        padding: 20px 35px;
+        border: none;
+    }
+}
